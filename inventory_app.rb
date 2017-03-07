@@ -1,4 +1,3 @@
-cd
 # Is built around a class and methods for that class.
 class Inventory
 
@@ -8,6 +7,16 @@ class Inventory
     @inventory = {tshirts: 27, dresses: 52, shoes: 75, pants: 7}
    end
 # Allows a user to select an item and view the inventory count, change the number of the inventory, delete the item altogether, or even change the name.
+
+  def start
+
+    loop do
+      action = get_action
+
+        case action
+
+
+    end
 
 
 
